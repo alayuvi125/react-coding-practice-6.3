@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.todo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.button {
+  color: #ff0b37;
+  font-family: 'Roboto';
+  font-size: 15px;
+  background-color: transparent;
+  padding: 10px;
+  border-width: 1px;
+  border-color: #ff0b37;
+  border-style: solid;
+  border-radius: 10px;
+  margin: 15px;
+  cursor: pointer;
+  outline: none;
+}
